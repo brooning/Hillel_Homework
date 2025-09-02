@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=ul, initial-scale=1.0" />
+    <title>Register</title>
+    <style>
+      div {padding: 8px;}
+      form {text-align: center;}
+      h3 {color: green;}
+      a {color: #000;}
+      input {
+        width: 300px;
+        height: 40px;
+        border-radius: 7px 7px 7px 7px;
+        border-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h3>
+        <a href="Login.html">Login</a>
+        <a>|</a>
+        Register
+      </h3>
+      <p>Enter your email and password to register.</p>
+      <div><input type="text" name="username" placeholder="Username" /></div>
+      <div>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+        />
+      </div>
+      <div>
+        <input 
+        type="password" 
+        name="password" 
+        placeholder="Password" />
+      </div>
+      <div>
+        <input
+          type="password"
+          name="conf_password"
+          placeholder="Confirm Password"
+          type="button"
+        />
+      </div>
+      <div>
+        <input
+          type="submit"
+          value="Register"
+          style="
+            background-color: green;
+            color: #fff;
+            border-color: green;
+            border-radius: 7px 7px 7px 7px;
+            width: 310px;
+            height: 45px;
+          "
+        />
+      </div>
+      <p>───────── Or register with ─────────</p>
+      <div>
+        <a style="position: absolute; pointer-events: none;">
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"
+            alt="Glogo"
+            style="width: 30px; margin-left: 55px; margin-top: 3px;"
+          />
+        </a>
+        <input style="background-color: #fff;" 
+        type="button" 
+        value="Continue with Google"
+      </div>
+      <div>
+        <a style="position: absolute; pointer-events: none;">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwopWy1begmJyAHi_6pgsu5OrQPR0U36M3Q&s"
+            alt="Flogo"
+            style="width: 30px; margin-left: 45px; margin-top: 3px;"
+          />
+        </a>
+        <input style="background-color: #fff;" 
+        type="button" 
+        value="Continue with Facebook"
+      </div>
+    </form>
+  </body>
+</html>
