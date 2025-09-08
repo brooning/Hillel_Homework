@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "Inter";
+    background-color: #FFFCB0;
+    display: flex;
+    justify-content: center;
+}
+.main_background {
+    background-color: #B0C6FF;
+    width: 1200px;
+    height: 892px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_title {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 46px;
+}
+.minion_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Bob_img {
+    width: 148.31px;
+    height: 141px;
+    object-fit: cover;
+}
+.minion {
+    width: 255px;
+    height: 327px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block-start: 23px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 85px;
+}
+.minion_name {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.minion_text {
+    padding: 11px 19.21px 22px 17.07px;
+    text-align: center;
+    font-size: 12px;
+}
+.Read_more_button {
+    cursor: pointer;
+    color: white;
+    background-color: #6177EB;
+    height: 40px;
+    width: 170.71px;
+}

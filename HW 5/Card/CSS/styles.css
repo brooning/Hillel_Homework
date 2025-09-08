@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.Card {
+    font-family: "Jua";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card_Title {
+    font-size: 60px;
+    padding-top: 35px;
+    padding-bottom: 57px;
+}
+.Card_photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 21px 396px 12px 53px;
+    object-fit: cover;
+    object-position: top;
+}
+.Card_body {
+    background-color: #792626;
+    color: white;
+    width: 549px;
+    height: 295px;
+    border-radius: 45px;
+    border: 10px solid black;
+}
+.Card_name {
+    font-size: 32px;
+    padding-left: 60px;
+    padding-bottom: 12px;
+}
+.Card_text {
+    font-size: 20px;
+    padding: 0px 87.54px 60px 60px;
+}
