@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: "PT Sans";
+    text-align: center;
+    margin-top: 20px;
+}
+.header {
+    width: 1200px;
+    height: 53px;
+    margin: auto;
+    border-bottom: 0.3px solid #46A35880;
+}
+.head_logo,
+.navigation,
+.green_button,
+.nav_section,
+.nav_button {
+    display: inline-block;
+    vertical-align: middle;
+}
+.Logo_img {
+    width: 150px;
+    height: 34,3px;
+}
+.head_logo {
+    margin-right: 229px;
+}
+.nav_button {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 50px;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+.nav_link {
+    color: #3D3D3D;
+}
+.nav_button:hover {
+    border-color: green;
+    font-weight: 700;
+}
+.Logout_img {
+    width: 20px;
+    vertical-align: middle;
+}
+.green_button {
+    background-color: #46a358;
+    border-radius: 6px;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-left: 310px;
+}
+.green_button:hover {
+    outline: 2px solid #29783d;
+    outline-offset: 1px;
+    cursor: pointer;
+}
+.main_body {
+    margin-top: 20px;
+    width: 1300px;
+    height: 450px;
+    display: inline-block;
+    font-size: 0px;
+}
+.main_body_plant {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin-left: 100px;
+}
+.main_body_plant_img {
+    width: 507px;
+    height: 450px;
+}
+.main_body_content {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    vertical-align: top;
+    font-size: 16px; 
+}
+.main_body_small_title {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 500;
+}
+.main_body_large_title {
+    font-size: 70px;
+    font-weight: 900;
+    color: #3d3d3d;
+    margin-top: 7px;
+}
+#planet {
+    color: #46a358;
+}
+.main_body_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 5px;
+}
+.shop_now_button {
+    width: 140px;
+    height: 40px;
+    background-color: #46a358;
+    border-radius: 6px;
+    color: white;
+    margin-top: 44px;
+    cursor: pointer;
+}
+.shop_now_button:hover {
+    outline: 2px solid #29783d;
+    outline-offset: 1px;
+}
