@@ -1,0 +1,504 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url(../fonts/CeraPro-Black.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Hanged Letters";
+    src: url(../fonts/Hanged\ Letters.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Cera Pro";
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-container {
+    width: 1200px;
+    height: 53px;
+    border-bottom: 0.3px solid #46A35880;
+}
+.head-logo,
+.navigation,
+.green-button,
+.nav-section,
+.nav-button {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.sub-navigation-container {
+    display: flex;
+    justify-content: center;
+}
+.sub-navigation {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #edf6ee;
+    background-clip: content-box;
+    border-top: 12px solid transparent;
+    width: 188px;
+    height: 155px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+.sub-nav-item {
+    display: block;
+    padding: 10px;
+    color: #3d3d3d;
+}
+.sub-nav-item-arrow {
+    position: absolute;
+    right: 7%;
+}
+.sub-nav-item-arrow-hover {
+    position: absolute;
+    bottom: 6%;
+    right: 7%;
+    color: transparent;
+}
+.sub-navigation li:hover .sub-nav-item {
+    background-color: #1A712A;
+    color: white;
+}
+.nav-button:hover .sub-navigation {
+    display: block;
+}
+.second-sub-navigation {
+    display: none;
+    position: absolute;
+    justify-content: start;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f3f9f3;
+    width: 178px;
+    height: 215px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+.sub-navigation li:hover .second-sub-navigation {
+    display: block;
+}
+.sub-navigation li:hover .sub-nav-item-arrow-hover {
+    color: white;
+}
+.sub-navigation li:hover .sub-nav-item-arrow {
+    display: none;
+}
+.second-sub-nav-item {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    color: #3d3d3d;
+}
+.second-sub-navigation li:hover .second-sub-nav-item {
+    background-color: #1A712A;
+    color: white;
+}
+.Logo-img {
+    width: 150px;
+    height: 34,3px;
+}
+.head-logo {
+    margin-right: 229px;
+}
+.nav-button {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 47px;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+.nav-link {
+    color: #3D3D3D;
+}
+.nav-button:hover {
+    border-color: green;
+    font-weight: 700;
+}
+.Logout-img {
+    width: 20px;
+    vertical-align: middle;
+}
+.green-button {
+    background-color: #46a358;
+    border-radius: 6px;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-left: 310px;
+}
+.green-button:hover {
+    outline: 2px solid #29783d;
+    outline-offset: 1px;
+    cursor: pointer;
+}
+.main-header-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 1200px;
+    height: 450px;
+}
+.main-header-body-plant-img {
+    width: 507px;
+    height: 450px;
+}
+.main-header-body-content {
+    width: 550px;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 16px; 
+}
+.main-header-body-small-title {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 500;
+}
+.main-header-body-large-title {
+    font-size: 70px;
+    font-weight: 900;
+    color: #3d3d3d;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+#planet {
+    color: #46a358;
+    text-transform: uppercase;
+}
+.main-header-body-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+}
+.shop-now-button {
+    width: 140px;
+    height: 40px;
+    font-weight: 700;
+    background-color: #46a358;
+    border-radius: 6px;
+    color: white;
+    margin-top: 44px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.shop-now-button:hover {
+    outline: 2px solid #29783d;
+    outline-offset: 1px;
+}
+.main-products-body {
+    display: flex;
+    margin-top: 10px;
+}
+.left-side-bar {
+    width: 370px;
+    height: 1244px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.categories-title {
+    margin: 14px 199px 27px 18px ;
+    font-weight: 700;
+    font-size: 18px;
+}
+.categories-list {
+    margin-left: 42px;
+}
+.category-name {
+    font-size: 15px;
+    font-weight: 400;
+}
+.category-link {
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    margin-bottom: 30px;
+}
+.category-link:hover {
+    color: #46A358;
+    font-weight: 700;
+    cursor: pointer;
+}
+.left-side-bar-ads {
+    margin-top: 362px;
+    text-align: center;
+}
+.left-side-bar-ads-super-sale {
+    font-family: "Hanged Letters";
+    font-size: 65px;
+    color: #46A358;
+    margin-bottom: 11px;
+}
+.left-side-bar-ads-super-sale-discount {
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+}
+.main-products {
+    width: 840px;
+    min-height: 1244px;
+}
+.main-products-navigation {
+    width: 840px;
+    height: 23px;
+    display: flex;
+}
+.main-products-navigation-list {
+    display: flex;
+    flex: content;
+}
+.main-products-navigation-button {
+    margin-left: 37px;
+}
+.main-products-navigation-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.main-products-navigation-link:hover {
+    font-weight: 700;
+    color: #46A358;
+    border-bottom: 2px solid #46a358;
+}
+.main-products-plant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 33px;
+    width: 840px;
+    height: 1280px;
+    margin-top: 31px;
+}
+.main-products-plant-card {
+    width: 258px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    border-top: 2px solid #ffffff00;
+}
+.product-discount-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background-color: #46A358;
+    color: white;
+    height: 29px;
+    width: 80px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.product-icon-list {
+    display: flex;
+    align-content: space-between;
+    gap: 10px;
+    position: absolute;
+    left: 25%;
+    bottom: 13%;
+}
+.product-icon {
+    background: rgba(255, 255, 255, 0.416);
+    border-radius: 4px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.main-products-plant-card:hover .product-icon {
+    opacity: 1;
+}
+.product-icon:hover .shopping-icon {
+    fill: #46A358;
+}
+.product-icon:hover .heart-icon {
+    fill: #46A358;
+}
+.product-icon:hover .frame-icon {
+    fill: #46A358;
+}
+.main-products-plant-name {
+    margin-top: 30px;
+}
+.main-products-plant-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #46A358;
+    margin-top: 6px;
+}
+.previous-price {
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    color: #A5A5A5;
+    text-decoration: line-through;
+    text-decoration-color: #CBCBCB;
+    left: 80px;
+    bottom: 0;
+}
+.main-product-link {
+    color: black;
+}
+.main-products-plant-card:hover {
+    cursor: pointer;
+    border-top: 2px solid #29783d;
+}
+.main-products-page-numbering {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-products-page-numbering ul {
+    display: flex;
+    gap: 10px;
+}
+.main-products-page-numbering-link {
+    color: #3d3d3d;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+#active-page {
+    color: #ffffff;
+    border: 2px solid #46a358;
+    background-color: #46a358;
+    font-weight: 700;
+  }
+  .main-products-page-numbering-link:hover {
+    border: 2px solid #46a358;
+    font-weight: 700;
+  }
+  .offers {
+    display: flex;
+    width: 1205px;
+    margin-top: 90px;
+    align-content: space-between;
+    gap: 55px;
+  }
+  .offer-1 {
+    display: flex;
+    align-items: center;
+  }
+  .offer-2 {
+    display: flex;
+    align-items: center;
+  }
+  .offer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+  }
+  .offer-name {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: 120px;
+    color: #3D3D3D;
+    text-transform: uppercase;
+  }
+  .offer-introduction {
+    padding-top: 20px;
+    color: #727272;
+  }
+  .our-blog {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    gap: 44px;
+    margin-top: 138px;
+    margin-bottom: 100px;
+    width: 1205px;
+    max-height: 450px;
+  }
+  .our-blog-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .our-blog-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3d3d3d;
+  }
+  .our-blog-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .blog-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    gap: 10px;
+  }
+  .blog-date {
+    font-weight: 500;
+    font-size: 14px;
+    color: #46a358;
+  }
+  .blog-text-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3d3d3d;
+    margin-right: 40px;
+  }
+  .blog-description {
+    color: #727272;
+  }
+  .read-more-button {
+    font-weight: 500;
+    font-size: 14px;
+    color: #3d3d3d;
+    padding-top: 5px;
+  }
+  .read-more-button:hover {
+    color: #46a358;
+  }
